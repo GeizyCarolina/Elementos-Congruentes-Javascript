@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    
+    <title>Aritimetida Modular</title>
+  </head>
+  <body>
+    
+    <section>
+          <div class="row">
+              <div class="col-sm-3 title">
+                 <h2>Elementos Congruentes</h2>
+              </div>
+              <div class="col-sm-9 area-form">
+                  <h4 class="mod">Verificar se os elementos são congruentes</h4>
+
+                 <form class="form-group">
+                    <div class="row">
+
+                      <div class="col">
+                        <input type="number" id="num1" class="form-control" placeholder="n1">
+                      </div>
+
+                      <span class="material-icons">menu</span><!--ICONE-->
+                                    
+                      <div class="col">
+                        <input type="number" id="num2" class="form-control" placeholder="n2">
+                      </div>
+
+                      <h5>Modulo</h5>
+
+                      <div class="col">
+                        <input type="number" id="num3" class="form-control" placeholder="n3">
+                      </div>
+
+                    </div><br>
+
+                    <div class="radio">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio1" value="option1">
+                            <label class="form-check-label" for="radio1">Definição</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio2" value="option2">
+                            <label class="form-check-label" for="radio2">Teorema</label>
+                        </div>
+                    </div>                   
+                 </form>
+
+                 <button type="submit" class="btn btn-primary" onclick="Verificar()">Verificar</button>
+                 <button type="submit" class="btn btn-danger" onclick="Limpar()">Limpar</button>
+
+                 <div id="resp">
+                  
+                 </div>
+                 <div id="resp2">
+
+                 </div>
+              </div>      
+          </div>
+    </section>
+
+    
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

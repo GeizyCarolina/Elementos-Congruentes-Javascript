@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    min-height: 100vh;
+    overflow: hidden;
+}
+.title{
+    background-color: rgb(102, 124, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;   
+}
+.title h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.area-form{
+    background-color: rgb(199, 199, 199);
+    padding: 0 100px 0 100px;
+}
+.form-group{
+    margin-top: 100px;
+}
+.radio{
+    text-align: center;
+}
+#resp{
+    background-color: rgb(249, 250, 250);
+    margin-top: 20px;
+    height: 100px;
+}
+.mod{
+    background-color: rgb(216, 215, 215);
+    margin-top: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button{
+    margin-top: 20px;
+}
